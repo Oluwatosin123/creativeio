@@ -1,0 +1,63 @@
+/* body reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color:#777;
+    padding: 5px;
+}
+
+
+/* css for logo */
+.logo-box{
+    position: absolute;
+    top: 0.9rem;
+    left: 0.8rem;
+}
+
+.logo{
+    height: 2.2rem;
+}
+
+/*css for toggler */
+button.navbar-toggler{
+    outline: none;
+    color: #1B64C6;
+} 
+
+.toggler-icon{
+    font-size: 1.5rem;
+    color: #1B64C6;
+    position: absolute;
+    right: 1rem;
+    top: 1.5rem;
+    outline: none;
+}
+
+
+.btn{
+    background: #1B64C6;
+    color: #fff;
+}
+
+.btn:active{
+    background: #1b65c695;
+    color: #fff;
+}
+
+.btn:hover{
+    background: #fff;
+    color: #1B64C6;
+    transition: all 1s ease-in-out;
+    outline: none;
+}
+a.navbar-brand{
+    color: #1B64C6  !important;
+}
